@@ -1,4 +1,9 @@
-# electron-quick-start
+# Integrando o electron dentro do projeto Teach.me
+
+![Captura de tela 2024-09-13 102540](https://github.com/user-attachments/assets/ff098a30-5af2-47f3-a69c-883052d89699)
+
+
+# Documentação de instalação
 
 **Clone and run for a quick way to see Electron in action.**
 
