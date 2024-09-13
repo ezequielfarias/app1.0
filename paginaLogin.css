@@ -1,0 +1,139 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Estilo do corpo da página */
+body {
+ background-image: url(./fundo.webp);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Container principal */
+.container {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  text-align: center;
+}
+
+/* Estilo do título */
+h2 {
+  font-family: 'Verdana', sans-serif;
+  color: #2c3e50;
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* Estilo do formulário */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+/* Campos de input */
+input {
+  padding: 0.9rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  transition: border-color 0.3s;
+}
+
+input:focus {
+  border-color: #3498db;
+  outline: none;
+}
+
+/* Botão de login */
+button[type="submit"] {
+  padding: 0.9rem;
+  font-size: 1rem;
+  color: white;
+  background-color: #3498db;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: #2980b9;
+}
+
+/* Estilo da seção de login social */
+.social-login {
+  margin-top: 1.5rem;
+}
+
+.social-login p {
+  font-size: 1rem;
+  color: #7f8c8d;
+}
+
+/* Botões de login social */
+.social-btn {
+  width: 100%;
+  padding: 0.9rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  margin-top: 0.5rem;
+  transition: background-color 0.3s;
+}
+
+/* Botão de LinkedIn */
+.linkedin-btn {
+  background-color: #0077b5;
+  color: white;
+}
+
+.linkedin-btn:hover {
+  background-color: #006096;
+}
+
+/* Botão de Gmail */
+.gmail-btn {
+  background-color: #db4437;
+  color: white;
+}
+
+.gmail-btn:hover {
+  background-color: #c33d2e;
+}
+
+/* Estilo do link de cadastro */
+.signup {
+  margin-top: 1.5rem;
+}
+
+.signup a {
+  color: #3498db;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.signup a:hover {
+  color: #2980b9;
+  text-decoration: underline;
+}
+
+/* Adicionando estilo ao foco nos botões */
+button:focus, input:focus {
+  outline: none;
+  border-color: #3498db;
+}
+
